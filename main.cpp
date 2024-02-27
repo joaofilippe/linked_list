@@ -8,7 +8,7 @@ class Node
     Node *next;
 
 public:
-    Node* getNext()
+    Node *getNext()
     {
         return next;
     };
@@ -26,8 +26,11 @@ public:
     };
     void insertFront(int value)
     {
-        
     }
+    void insertBack(int value){
+
+    };
+    void insertBetweenNode(int value, Node *node){};
 };
 
 int main()
